@@ -1,0 +1,22 @@
+{
+    "SECRET_KEY": "xbdbad_()*(bwqdk@1ww",
+    "LOGGER_NAME": "flask-app-template.log",
+    "DB_URL": "postgresql://tan_admin:m@broSonu2002@localhost:5432/bnf_tutor",
+    "DB_MAX_POOL_SIZE": 15,
+    "RABBITMQ_BROKER_URL": "amqp://mqadmin:mqadminpass@localhost:5672/bnf",
+    "PRINT_QUERY": true,
+    "REDIS_URL": "redis://localhost:6379/0",
+    "REDIS_SSL": false,
+    "DATABASE_TABLES_SETUP": true,
+    "BASE_PATH": "/home/chinmay/Documents/tan_projects/",
+    "API_RATE_LIMITS": {
+        "/": 10,
+        "/v1/healthcheck": 10
+    },
+    "TEXTLOCAL_API_KEY": "NTE2ODQyNjc3YTY0MzE2YzRjNWE0NDQyNzA1ODM3NTc=",
+    "PROJECT_NAME": "flask-app-template",
+    "ENV": "production",
+    "HOST": "127.0.0.1",
+    "PORT": 5000,
+    "DEBUG": true
+}
